@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>KRASNALE PROGRAMY</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://github.com/SERWOFLEX/KRASNALE_PROGRAMY/blob/main/test/param.js"></script>
+</head>
+<center>
+<body>
+  <h1>
+   OPROGRAMOWANIE KRASNALE
+  </h1>
+  <button arduino-uploader hex-href="./test/Blink.hex" board="MEGA" verify>
+   CENTRALNY [<span class="upload-progress"></span>]
+  </button>
+  <BR>
+  <BR>
+  <button arduino-uploader hex-href="./test/Blink.hex" board="nanoOldBootloader" verify>
+   KAROCA [<span class="upload-progress"></span>]
+  </button>
+   <BR>
+   <BR>
+  <button arduino-uploader hex-href="./test/Blink.hex" board="nano" verify>
+    LAMPA KOLO [<span class="upload-progress"></span>]
+  </button>
+   <BR>
+   <BR>
+  <button arduino-uploader hex-href="./test/Blink.hex" board="nanoOldBootloader" verify>
+   ZAPACHY [<span class="upload-progress"></span>]
+  </button>
+   <BR>
+   <BR>
+  <button arduino-uploader hex-href="./test/Bootloader.hex" board="nanoOldBootloader"" verify>
+   PIEC [<span class="upload-progress"></span>]
+  </button>
+</body>
+
+</html>
+
